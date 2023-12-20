@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA9AB1A2B329ED90000D9A7 /* SUIDrawerSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9AB192B329ED90000D9A7 /* SUIDrawerSampleApp.swift */; };
+		4AA9AB1C2B329ED90000D9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9AB1B2B329ED90000D9A7 /* ContentView.swift */; };
+		4AA9AB1E2B329EDA0000D9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9AB1D2B329EDA0000D9A7 /* Assets.xcassets */; };
+		4AA9AB212B329EDA0000D9A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9AB202B329EDA0000D9A7 /* Preview Assets.xcassets */; };
+		4AA9AB2B2B329F110000D9A7 /* SUIDrawer in Frameworks */ = {isa = PBXBuildFile; productRef = 4AA9AB2A2B329F110000D9A7 /* SUIDrawer */; };
+		4AA9AB322B329F200000D9A7 /* CoolSUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9AB2E2B329F200000D9A7 /* CoolSUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA9AB162B329ED90000D9A7 /* SUIDrawerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIDrawerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA9AB192B329ED90000D9A7 /* SUIDrawerSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIDrawerSampleApp.swift; sourceTree = "<group>"; };
+		4AA9AB1B2B329ED90000D9A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AA9AB1D2B329EDA0000D9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AA9AB202B329EDA0000D9A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AA9AB222B329EDA0000D9A7 /* SUIDrawerSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SUIDrawerSample.entitlements; sourceTree = "<group>"; };
+		4AA9AB282B329EFD0000D9A7 /* SUIDrawer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SUIDrawer; path = ..; sourceTree = "<group>"; };
+		4AA9AB2E2B329F200000D9A7 /* CoolSUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolSUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA9AB132B329ED90000D9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9AB2B2B329F110000D9A7 /* SUIDrawer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA9AB0D2B329ED90000D9A7 = {
+			isa = PBXGroup;
+			children = (
+				4AA9AB282B329EFD0000D9A7 /* SUIDrawer */,
+				4AA9AB182B329ED90000D9A7 /* SUIDrawerSample */,
+				4AA9AB172B329ED90000D9A7 /* Products */,
+				4AA9AB292B329F110000D9A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA9AB172B329ED90000D9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9AB162B329ED90000D9A7 /* SUIDrawerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA9AB182B329ED90000D9A7 /* SUIDrawerSample */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9AB192B329ED90000D9A7 /* SUIDrawerSampleApp.swift */,
+				4AA9AB1B2B329ED90000D9A7 /* ContentView.swift */,
+				4AA9AB2E2B329F200000D9A7 /* CoolSUIView.swift */,
+				4AA9AB1D2B329EDA0000D9A7 /* Assets.xcassets */,
+				4AA9AB222B329EDA0000D9A7 /* SUIDrawerSample.entitlements */,
+				4AA9AB1F2B329EDA0000D9A7 /* Preview Content */,
+			);
+			path = SUIDrawerSample;
+			sourceTree = "<group>";
+		};
+		4AA9AB1F2B329EDA0000D9A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AA9AB202B329EDA0000D9A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AA9AB292B329F110000D9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA9AB152B329ED90000D9A7 /* SUIDrawerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA9AB252B329EDA0000D9A7 /* Build configuration list for PBXNativeTarget "SUIDrawerSample" */;
+			buildPhases = (
+				4AA9AB122B329ED90000D9A7 /* Sources */,
+				4AA9AB132B329ED90000D9A7 /* Frameworks */,
+				4AA9AB142B329ED90000D9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SUIDrawerSample;
+			packageProductDependencies = (
+				4AA9AB2A2B329F110000D9A7 /* SUIDrawer */,
+			);
+			productName = SUIDrawerSample;
+			productReference = 4AA9AB162B329ED90000D9A7 /* SUIDrawerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA9AB0E2B329ED90000D9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4AA9AB152B329ED90000D9A7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4AA9AB112B329ED90000D9A7 /* Build configuration list for PBXProject "SUIDrawerSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA9AB0D2B329ED90000D9A7;
+			packageReferences = (
+			);
+			productRefGroup = 4AA9AB172B329ED90000D9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA9AB152B329ED90000D9A7 /* SUIDrawerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA9AB142B329ED90000D9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9AB212B329EDA0000D9A7 /* Preview Assets.xcassets in Resources */,
+				4AA9AB1E2B329EDA0000D9A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA9AB122B329ED90000D9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA9AB322B329F200000D9A7 /* CoolSUIView.swift in Sources */,
+				4AA9AB1C2B329ED90000D9A7 /* ContentView.swift in Sources */,
+				4AA9AB1A2B329ED90000D9A7 /* SUIDrawerSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AA9AB232B329EDA0000D9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AA9AB242B329EDA0000D9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4AA9AB262B329EDA0000D9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SUIDrawerSample/SUIDrawerSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SUIDrawerSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 39SZK2C73D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibe.SUIDrawerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4AA9AB272B329EDA0000D9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SUIDrawerSample/SUIDrawerSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SUIDrawerSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 39SZK2C73D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibe.SUIDrawerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA9AB112B329ED90000D9A7 /* Build configuration list for PBXProject "SUIDrawerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA9AB232B329EDA0000D9A7 /* Debug */,
+				4AA9AB242B329EDA0000D9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA9AB252B329EDA0000D9A7 /* Build configuration list for PBXNativeTarget "SUIDrawerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA9AB262B329EDA0000D9A7 /* Debug */,
+				4AA9AB272B329EDA0000D9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AA9AB2A2B329F110000D9A7 /* SUIDrawer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SUIDrawer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4AA9AB0E2B329ED90000D9A7 /* Project object */;
+}
