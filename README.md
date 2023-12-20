@@ -19,17 +19,18 @@ struct ContentView: View {
 	
     var body: some View {
         Form {
-			Toggle("Show Drawer", isOn: $showDrawer)
-				.controlSize(.large)
-				.toggleStyle(.switch)
+		Toggle("Show Drawer", isOn: $showDrawer)
+			.controlSize(.large)
+			.toggleStyle(.switch)
         }
-		.formStyle(.grouped)
-		.drawer(isPresented: $showDrawer, preferredEdge: .maxX) {
-			CoolSUIView(model: coolModel)
-		}
+	.formStyle(.grouped)
+	.drawer(isPresented: $showDrawer, preferredEdge: .maxX) {
+		CoolSUIView(model: coolModel)
+	}
     }
 }
 
 ```
 ## Limitations
- - Drawer is a fixed width of 300 
+ - Drawer is a fixed width of 300
+ - Requires macOS 14 or later, due to the use of `@Observable`
